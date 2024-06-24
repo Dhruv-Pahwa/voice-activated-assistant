@@ -1,0 +1,39 @@
+Voice-Activated Assistant
+
+Welcome to the Voice-Activated Assistant repository! This project demonstrates a voice-controlled assistant implemented in Python, capable of performing various tasks based on voice commands.
+
+Features
+
+- Speech Recognition: Uses the SpeechRecognition library to convert speech to text.
+- Text-to-Speech: Employs Pyttsx3 to provide spoken responses.
+- Wikipedia Integration: Retrieves information from Wikipedia based on user queries.
+- WolframAlpha Integration: Computes answers to factual queries using the WolframAlpha API.
+- Web Browsing: Enables seamless web browsing via Chrome.
+- Note-Taking: Allows users to record notes, timestamped and stored as text files.
+
+Demo
+
+Check out the video demonstration of the Voice-Activated Assistant in action: [Insert Video Link Here]
+
+Getting Started
+
+To run the assistant locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/voice-activated-assistant.git
+   cd voice-activated-assistant
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Set up APIs:
+   - Obtain API keys for WolframAlpha and ensure access to Wikipedia.
+
+4. Run the application:
+   ```bash
+   python voice_assistant.py
+   ```
